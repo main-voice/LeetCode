@@ -3,3 +3,17 @@ VS Setting
 $(SolutionDir)bin\$(Platform)\$(Configuration)\
 $(SolutionDir)bin\Intermediates\$(Platform)\$(Configuration)\
 
+#include <iostream>
+#include <vector>
+using namespace std;
+
+
+while (1) {
+        int x = 0;
+        cout << "input the rowIndex, -1 means exit\n";
+        cin >> x;
+        if (x == -1) {
+            return 0;
+        }
+
+}
