@@ -1,0 +1,5 @@
+VS Setting
+
+$(SolutionDir)bin\$(Platform)\$(Configuration)\
+$(SolutionDir)bin\Intermediates\$(Platform)\$(Configuration)\
+
