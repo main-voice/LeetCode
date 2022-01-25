@@ -25,6 +25,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "判断子序列", "判断�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "斐波那契数", "斐波那契数\斐波那契数.vcxproj", "{84D40D31-1A74-42B8-831B-7278C117A42C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "最小花费爬楼梯", "最小花费爬楼梯\最小花费爬楼梯.vcxproj", "{5D53C9A0-CC92-4E0D-9098-FEE9CE4CDFFF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -121,6 +123,14 @@ Global
 		{84D40D31-1A74-42B8-831B-7278C117A42C}.Release|x64.Build.0 = Release|x64
 		{84D40D31-1A74-42B8-831B-7278C117A42C}.Release|x86.ActiveCfg = Release|Win32
 		{84D40D31-1A74-42B8-831B-7278C117A42C}.Release|x86.Build.0 = Release|Win32
+		{5D53C9A0-CC92-4E0D-9098-FEE9CE4CDFFF}.Debug|x64.ActiveCfg = Debug|x64
+		{5D53C9A0-CC92-4E0D-9098-FEE9CE4CDFFF}.Debug|x64.Build.0 = Debug|x64
+		{5D53C9A0-CC92-4E0D-9098-FEE9CE4CDFFF}.Debug|x86.ActiveCfg = Debug|Win32
+		{5D53C9A0-CC92-4E0D-9098-FEE9CE4CDFFF}.Debug|x86.Build.0 = Debug|Win32
+		{5D53C9A0-CC92-4E0D-9098-FEE9CE4CDFFF}.Release|x64.ActiveCfg = Release|x64
+		{5D53C9A0-CC92-4E0D-9098-FEE9CE4CDFFF}.Release|x64.Build.0 = Release|x64
+		{5D53C9A0-CC92-4E0D-9098-FEE9CE4CDFFF}.Release|x86.ActiveCfg = Release|Win32
+		{5D53C9A0-CC92-4E0D-9098-FEE9CE4CDFFF}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
