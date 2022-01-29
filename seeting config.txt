@@ -19,6 +19,7 @@ while (1) {
 }
 
 int main() {
+    cout<<"hello world.\n";
 	cin.get();
 	return 0;
 }
