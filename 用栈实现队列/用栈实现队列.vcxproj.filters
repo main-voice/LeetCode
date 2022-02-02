@@ -15,15 +15,11 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="MinStack.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="StackwithQueue.cpp">
+    <ClCompile Include="QueuewithStack.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="最小栈题目.txt" />
-    <Text Include="用队列实现栈题目.txt" />
+    <Text Include="用栈实现队列题目.txt" />
   </ItemGroup>
 </Project>

@@ -3,9 +3,6 @@ VS Setting
 $(SolutionDir)bin\$(Platform)\$(Configuration)\
 $(SolutionDir)bin\Intermediates\$(Platform)\$(Configuration)\
 
-#include <iostream>
-#include <vector>
-using namespace std;
 
 
 while (1) {
@@ -17,6 +14,10 @@ while (1) {
         }
 
 }
+
+#include <iostream>
+#include <vector>
+using namespace std;
 
 int main() {
     cout<<"hello world.\n";
