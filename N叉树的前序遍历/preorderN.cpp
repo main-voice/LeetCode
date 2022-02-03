@@ -46,6 +46,10 @@ class Solution2 {
     vector<int> result;
 public:
     vector<int> preorder(Node* root) {
+
+        if (root == nullptr) {
+            return result;
+        }
         std::stack<Node*> stack;
 
         stack.emplace(root);
