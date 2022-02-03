@@ -55,6 +55,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "N叉树的前序遍历", "N
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "N叉树的后序遍历", "N叉树的后序遍历\N叉树的后序遍历.vcxproj", "{3C7E01D5-056A-4DE0-8DAA-B0941322A0E0}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "棒球比赛", "棒球比赛\棒球比赛.vcxproj", "{2A0C3C8B-1FC0-484D-9C14-5D92288C6CC0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "比较含退格的字符串", "比较含退格的字符串\比较含退格的字符串.vcxproj", "{7F069C10-058C-4A13-A34C-EAEF1FD7D609}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -271,6 +275,22 @@ Global
 		{3C7E01D5-056A-4DE0-8DAA-B0941322A0E0}.Release|x64.Build.0 = Release|x64
 		{3C7E01D5-056A-4DE0-8DAA-B0941322A0E0}.Release|x86.ActiveCfg = Release|Win32
 		{3C7E01D5-056A-4DE0-8DAA-B0941322A0E0}.Release|x86.Build.0 = Release|Win32
+		{2A0C3C8B-1FC0-484D-9C14-5D92288C6CC0}.Debug|x64.ActiveCfg = Debug|x64
+		{2A0C3C8B-1FC0-484D-9C14-5D92288C6CC0}.Debug|x64.Build.0 = Debug|x64
+		{2A0C3C8B-1FC0-484D-9C14-5D92288C6CC0}.Debug|x86.ActiveCfg = Debug|Win32
+		{2A0C3C8B-1FC0-484D-9C14-5D92288C6CC0}.Debug|x86.Build.0 = Debug|Win32
+		{2A0C3C8B-1FC0-484D-9C14-5D92288C6CC0}.Release|x64.ActiveCfg = Release|x64
+		{2A0C3C8B-1FC0-484D-9C14-5D92288C6CC0}.Release|x64.Build.0 = Release|x64
+		{2A0C3C8B-1FC0-484D-9C14-5D92288C6CC0}.Release|x86.ActiveCfg = Release|Win32
+		{2A0C3C8B-1FC0-484D-9C14-5D92288C6CC0}.Release|x86.Build.0 = Release|Win32
+		{7F069C10-058C-4A13-A34C-EAEF1FD7D609}.Debug|x64.ActiveCfg = Debug|x64
+		{7F069C10-058C-4A13-A34C-EAEF1FD7D609}.Debug|x64.Build.0 = Debug|x64
+		{7F069C10-058C-4A13-A34C-EAEF1FD7D609}.Debug|x86.ActiveCfg = Debug|Win32
+		{7F069C10-058C-4A13-A34C-EAEF1FD7D609}.Debug|x86.Build.0 = Debug|Win32
+		{7F069C10-058C-4A13-A34C-EAEF1FD7D609}.Release|x64.ActiveCfg = Release|x64
+		{7F069C10-058C-4A13-A34C-EAEF1FD7D609}.Release|x64.Build.0 = Release|x64
+		{7F069C10-058C-4A13-A34C-EAEF1FD7D609}.Release|x86.ActiveCfg = Release|Win32
+		{7F069C10-058C-4A13-A34C-EAEF1FD7D609}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
