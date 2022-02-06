@@ -59,6 +59,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "棒球比赛", "棒球比�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "比较含退格的字符串", "比较含退格的字符串\比较含退格的字符串.vcxproj", "{7F069C10-058C-4A13-A34C-EAEF1FD7D609}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "递增顺序搜索树", "递增顺序搜索树\递增顺序搜索树.vcxproj", "{B84449E6-F741-45E8-B394-5E0B630C020B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "删除最外层的括号", "删除最外层的括号\删除最外层的括号.vcxproj", "{CCB1FA99-57DB-4DFA-A0E3-D247510821AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -291,6 +295,22 @@ Global
 		{7F069C10-058C-4A13-A34C-EAEF1FD7D609}.Release|x64.Build.0 = Release|x64
 		{7F069C10-058C-4A13-A34C-EAEF1FD7D609}.Release|x86.ActiveCfg = Release|Win32
 		{7F069C10-058C-4A13-A34C-EAEF1FD7D609}.Release|x86.Build.0 = Release|Win32
+		{B84449E6-F741-45E8-B394-5E0B630C020B}.Debug|x64.ActiveCfg = Debug|x64
+		{B84449E6-F741-45E8-B394-5E0B630C020B}.Debug|x64.Build.0 = Debug|x64
+		{B84449E6-F741-45E8-B394-5E0B630C020B}.Debug|x86.ActiveCfg = Debug|Win32
+		{B84449E6-F741-45E8-B394-5E0B630C020B}.Debug|x86.Build.0 = Debug|Win32
+		{B84449E6-F741-45E8-B394-5E0B630C020B}.Release|x64.ActiveCfg = Release|x64
+		{B84449E6-F741-45E8-B394-5E0B630C020B}.Release|x64.Build.0 = Release|x64
+		{B84449E6-F741-45E8-B394-5E0B630C020B}.Release|x86.ActiveCfg = Release|Win32
+		{B84449E6-F741-45E8-B394-5E0B630C020B}.Release|x86.Build.0 = Release|Win32
+		{CCB1FA99-57DB-4DFA-A0E3-D247510821AF}.Debug|x64.ActiveCfg = Debug|x64
+		{CCB1FA99-57DB-4DFA-A0E3-D247510821AF}.Debug|x64.Build.0 = Debug|x64
+		{CCB1FA99-57DB-4DFA-A0E3-D247510821AF}.Debug|x86.ActiveCfg = Debug|Win32
+		{CCB1FA99-57DB-4DFA-A0E3-D247510821AF}.Debug|x86.Build.0 = Debug|Win32
+		{CCB1FA99-57DB-4DFA-A0E3-D247510821AF}.Release|x64.ActiveCfg = Release|x64
+		{CCB1FA99-57DB-4DFA-A0E3-D247510821AF}.Release|x64.Build.0 = Release|x64
+		{CCB1FA99-57DB-4DFA-A0E3-D247510821AF}.Release|x86.ActiveCfg = Release|Win32
+		{CCB1FA99-57DB-4DFA-A0E3-D247510821AF}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

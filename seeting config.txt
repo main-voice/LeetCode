@@ -17,6 +17,7 @@ while (1) {
 
 #include <iostream>
 #include <vector>
+#include <string>
 using namespace std;
 
 
