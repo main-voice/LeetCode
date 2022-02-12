@@ -1,6 +1,7 @@
 #include <iostream>
 #include <memory>
 #include <vector>
+
 //若无脑递归，则为斐波那契数列
 
 #define UN_STORE 65535
@@ -63,26 +64,103 @@ public:
     }
 };
 
-class SolutionOther {
-public:
-    int climbStairs(int n)
+void solution() {
+    int n = 0;
+    std::cin >> n;
+
+    if (n < 3)
     {
-        std::vector<int> record(n + 1, -1);
-        int res = getN(n, record);
-        return res;
+        std::cout << n;// 直接判断
+        return;
     }
-    int getN(int n, std::vector<int>& record)
-    {
-        if (n == 1 || n == 0)
-            return 1;
-        if (record[n] == -1)
+
+    long long dp[51] = {}; // 假设最多50级台阶
+    dp[0] = 1;
+    dp[1] = 1;
+    dp[2] = 2;
+
+    for (int i = 3; i <= n; i++) {
+        dp[i] = dp[i - 1] + dp[i - 2];
+    }
+    std::cout << dp[n] << std::endl;
+}
+
+//楼梯有 n 阶，上楼可以一步上一阶，也可以一步上二阶。
+//但你不能连续三步都走两阶，计算走到第n阶共有多少种不同的走法。
+class SolutionRestraint1 {
+public:
+    void sln() {
+        int n = 0;
+        std::cin >> n;
+
+        if (n < 3)
         {
-            record[n] = getN(n - 1, record) + getN(n - 2, record);
+            std::cout << n;
+            return;
         }
-        return record[n];
+
+        long long dp[51][3] = {}; //二维数组dp的第二维 0 1 2表示的是: dp[i][j] 在第i级台阶，之前是有连续j次走了二级台阶的方法数
+        //所以最后返回dp[n][0]+dp[n][1]+dp[n][2]
+        //从dp[i][j]开始，可以有两种情况，一种到dp[i+1][0],因为没有连续两级台阶，一种到dp[i+2][j+1]，此时需要检测j是否大于等于2
+        dp[0][0] = 1;
+        dp[0][1] = 0;
+        dp[0][2] = 0;
+
+        dp[1][0] = 1;
+        dp[1][1] = 0;
+        dp[1][2] = 0;
+
+        dp[2][0] = 1;
+        dp[2][1] = 1;
+        dp[2][2] = 0;
+
+        for (int i = 3; i <= n; i++) {
+            dp[i][0] = dp[i - 1][0] + dp[i - 1][1] + dp[i - 1][2]; // 到了第i级台阶，并且之前一次不是两级台阶，则只能是由前一级台阶来的，并且如何到的前一级台阶? 可以有3种情况，分别是0次两级，1次两级，2次两级
+            dp[i][1] = dp[i - 2][0];// 到了第i级台阶，并且之前一次是两级台阶，是由前两级台阶来的，并且如何到的前两级台阶? 为保证最近仅一次跳了两级，唯一情况是跳了一级然后到的前两级
+            dp[i][2] = dp[i - 2][1];// 到了第i级台阶，并且之前两次都是两级台阶，是由前两级台阶来的，并且如何到的前两级台阶? 为保证最近有两次跳了两级，唯一情况是跳了两级然后到的前两级
+        }
+
+        std::cout << dp[n][0] + dp[n][1] + dp[n][2];
+
     }
 };
 
+//楼梯有 n 阶，上楼可以一步上一阶，也可以一步上二阶。
+//但你不能连续走两阶，计算走到第n阶共有多少种不同的走法。
+class SolutionRestraint1 {
+public:
+    void sln() {
+        int n = 0;
+        std::cin >> n;
+
+        if (n < 3)
+        {
+            std::cout << n;
+            return;
+        }
+
+        long long dp[51][2] = {}; //二维数组dp的第二维 0 1表示的是: dp[i][j] 在第i级台阶，之前是有连续j次走了二级台阶的方法数，只能是0或1
+        //所以最后返回dp[n][0]+dp[n][1]
+        //从dp[i][j]开始，可以有两种情况，一种到dp[i+1][0],因为没有连续两级台阶，一种到dp[i+2][j+1]
+        dp[0][0] = 1;
+        dp[0][1] = 0;
+
+        dp[1][0] = 1;
+        dp[1][1] = 0;
+
+        dp[2][0] = 1;
+        dp[2][1] = 1;
+
+        for (int i = 3; i <= n; i++) {
+            dp[i][0] = dp[i - 1][0] + dp[i - 1][1]; // 到了第i级台阶，并且之前一次不是两级台阶，则只能是由前一级台阶来的，并且如何到的前一级台阶? 可以有2种情况，分别是0次两级，1次两级
+            dp[i][1] = dp[i - 2][0];// 到了第i级台阶，并且之前一次是两级台阶，是由前两级台阶来的，并且如何到的前两级台阶? 唯一情况是之前跳了一级然后到的前两级
+            
+        }
+
+        std::cout << dp[n][0] + dp[n][1];
+
+    }
+};
 
 int main()
 {
@@ -93,6 +171,10 @@ int main()
     Solution2 solution;
     int result = solution.climbStairs(n);
     std::cout<< result << "\n";
+
+    SolutionRestraint1 sln;
+    sln.sln();
+
     std::cin.get();
     return 0;
 
