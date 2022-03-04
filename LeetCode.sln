@@ -89,6 +89,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "优先级队列", "优先�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "最后一块石头的重量", "最后一块石头的重量\最后一块石头的重量.vcxproj", "{C61CA3A1-3BCA-4601-955D-235ABE276752}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "背包问题", "背包问题\背包问题.vcxproj", "{15B361BE-5148-423D-8938-5051A1E529E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -441,6 +443,14 @@ Global
 		{C61CA3A1-3BCA-4601-955D-235ABE276752}.Release|x64.Build.0 = Release|x64
 		{C61CA3A1-3BCA-4601-955D-235ABE276752}.Release|x86.ActiveCfg = Release|Win32
 		{C61CA3A1-3BCA-4601-955D-235ABE276752}.Release|x86.Build.0 = Release|Win32
+		{15B361BE-5148-423D-8938-5051A1E529E8}.Debug|x64.ActiveCfg = Debug|x64
+		{15B361BE-5148-423D-8938-5051A1E529E8}.Debug|x64.Build.0 = Debug|x64
+		{15B361BE-5148-423D-8938-5051A1E529E8}.Debug|x86.ActiveCfg = Debug|Win32
+		{15B361BE-5148-423D-8938-5051A1E529E8}.Debug|x86.Build.0 = Debug|Win32
+		{15B361BE-5148-423D-8938-5051A1E529E8}.Release|x64.ActiveCfg = Release|x64
+		{15B361BE-5148-423D-8938-5051A1E529E8}.Release|x64.Build.0 = Release|x64
+		{15B361BE-5148-423D-8938-5051A1E529E8}.Release|x86.ActiveCfg = Release|Win32
+		{15B361BE-5148-423D-8938-5051A1E529E8}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
