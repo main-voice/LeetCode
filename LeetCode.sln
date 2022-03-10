@@ -93,6 +93,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "背包问题", "背包问�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "矩阵中战斗力最弱的K行", "矩阵中战斗力最弱的K行\矩阵中战斗力最弱的K行.vcxproj", "{747EC59C-E337-4570-9403-7317928D2A53}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "罗马数字转整数", "罗马数字转整数\罗马数字转整数.vcxproj", "{463A6B8F-5295-45EF-AD85-C2FD1CFD14F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -461,6 +463,14 @@ Global
 		{747EC59C-E337-4570-9403-7317928D2A53}.Release|x64.Build.0 = Release|x64
 		{747EC59C-E337-4570-9403-7317928D2A53}.Release|x86.ActiveCfg = Release|Win32
 		{747EC59C-E337-4570-9403-7317928D2A53}.Release|x86.Build.0 = Release|Win32
+		{463A6B8F-5295-45EF-AD85-C2FD1CFD14F6}.Debug|x64.ActiveCfg = Debug|x64
+		{463A6B8F-5295-45EF-AD85-C2FD1CFD14F6}.Debug|x64.Build.0 = Debug|x64
+		{463A6B8F-5295-45EF-AD85-C2FD1CFD14F6}.Debug|x86.ActiveCfg = Debug|Win32
+		{463A6B8F-5295-45EF-AD85-C2FD1CFD14F6}.Debug|x86.Build.0 = Debug|Win32
+		{463A6B8F-5295-45EF-AD85-C2FD1CFD14F6}.Release|x64.ActiveCfg = Release|x64
+		{463A6B8F-5295-45EF-AD85-C2FD1CFD14F6}.Release|x64.Build.0 = Release|x64
+		{463A6B8F-5295-45EF-AD85-C2FD1CFD14F6}.Release|x86.ActiveCfg = Release|Win32
+		{463A6B8F-5295-45EF-AD85-C2FD1CFD14F6}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
