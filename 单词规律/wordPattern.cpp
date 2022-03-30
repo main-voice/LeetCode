@@ -7,7 +7,7 @@
 #include<unordered_map>
 using namespace std;
 
-
+ 
 
 class Solution2 {
 public:
@@ -26,7 +26,7 @@ public:
 
 		auto size1 = pattern.size();
 		auto size2 = res.size();
-
+		
 		if (size1 != size2) { return false; }
 
 		for (size_t i = 0; i < size1; i++)
