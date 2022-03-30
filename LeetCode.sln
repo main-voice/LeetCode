@@ -106,20 +106,14 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "存在重复元素", "存在重复元素\存在重复元素.vcxproj", "{6C08AD9F-0C00-4CA8-BE2A-2EDD8FCA72D4}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "存在重复元素II", "存在重复元素II\存在重复元素II.vcxproj", "{A55DDE27-5F34-4F29-8004-EA5A4A19763B}"
-<<<<<<< HEAD
 EndProject
-=======
-=========
->>>>>>> 2d2857fac5f8cf76addf62ac992acc965603fd15
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "有效的字母异位词", "有效的字母异位词\有效的字母异位词.vcxproj", "{9E2C0F94-0B48-4A94-A956-28EC37B889E6}"
->>>>>>>>> Temporary merge branch 2
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "丢失的数字", "丢失的数字\丢失的数字.vcxproj", "{A890DD6D-9145-4163-82B0-8FC21727FA0C}"
-<<<<<<< HEAD
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "单词规律", "单词规律\单词规律.vcxproj", "{642A6F82-31EE-4097-B969-54404CC80209}"
-=======
->>>>>>> 2d2857fac5f8cf76addf62ac992acc965603fd15
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "两个数组的交集", "两个数组的交集\两个数组的交集.vcxproj", "{65634C4A-17F3-42AE-8956-0ACC137D79C8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -545,10 +539,6 @@ Global
 		{A55DDE27-5F34-4F29-8004-EA5A4A19763B}.Release|x64.Build.0 = Release|x64
 		{A55DDE27-5F34-4F29-8004-EA5A4A19763B}.Release|x86.ActiveCfg = Release|Win32
 		{A55DDE27-5F34-4F29-8004-EA5A4A19763B}.Release|x86.Build.0 = Release|Win32
-<<<<<<< HEAD
-=======
-=========
->>>>>>> 2d2857fac5f8cf76addf62ac992acc965603fd15
 		{9E2C0F94-0B48-4A94-A956-28EC37B889E6}.Debug|x64.ActiveCfg = Debug|x64
 		{9E2C0F94-0B48-4A94-A956-28EC37B889E6}.Debug|x64.Build.0 = Debug|x64
 		{9E2C0F94-0B48-4A94-A956-28EC37B889E6}.Debug|x86.ActiveCfg = Debug|Win32
@@ -557,7 +547,6 @@ Global
 		{9E2C0F94-0B48-4A94-A956-28EC37B889E6}.Release|x64.Build.0 = Release|x64
 		{9E2C0F94-0B48-4A94-A956-28EC37B889E6}.Release|x86.ActiveCfg = Release|Win32
 		{9E2C0F94-0B48-4A94-A956-28EC37B889E6}.Release|x86.Build.0 = Release|Win32
-<<<<<<< HEAD
 		{A890DD6D-9145-4163-82B0-8FC21727FA0C}.Debug|x64.ActiveCfg = Debug|x64
 		{A890DD6D-9145-4163-82B0-8FC21727FA0C}.Debug|x64.Build.0 = Debug|x64
 		{A890DD6D-9145-4163-82B0-8FC21727FA0C}.Debug|x86.ActiveCfg = Debug|Win32
@@ -574,9 +563,14 @@ Global
 		{642A6F82-31EE-4097-B969-54404CC80209}.Release|x64.Build.0 = Release|x64
 		{642A6F82-31EE-4097-B969-54404CC80209}.Release|x86.ActiveCfg = Release|Win32
 		{642A6F82-31EE-4097-B969-54404CC80209}.Release|x86.Build.0 = Release|Win32
-=======
->>>>>>>>> Temporary merge branch 2
->>>>>>> 2d2857fac5f8cf76addf62ac992acc965603fd15
+		{65634C4A-17F3-42AE-8956-0ACC137D79C8}.Debug|x64.ActiveCfg = Debug|x64
+		{65634C4A-17F3-42AE-8956-0ACC137D79C8}.Debug|x64.Build.0 = Debug|x64
+		{65634C4A-17F3-42AE-8956-0ACC137D79C8}.Debug|x86.ActiveCfg = Debug|Win32
+		{65634C4A-17F3-42AE-8956-0ACC137D79C8}.Debug|x86.Build.0 = Debug|Win32
+		{65634C4A-17F3-42AE-8956-0ACC137D79C8}.Release|x64.ActiveCfg = Release|x64
+		{65634C4A-17F3-42AE-8956-0ACC137D79C8}.Release|x64.Build.0 = Release|x64
+		{65634C4A-17F3-42AE-8956-0ACC137D79C8}.Release|x86.ActiveCfg = Release|Win32
+		{65634C4A-17F3-42AE-8956-0ACC137D79C8}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
