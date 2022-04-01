@@ -115,6 +115,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "单词规律", "单词规�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "两个数组的交集", "两个数组的交集\两个数组的交集.vcxproj", "{65634C4A-17F3-42AE-8956-0ACC137D79C8}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "两个数组的交集II", "两个数组的交集II\两个数组的交集II.vcxproj", "{0C6782C9-E1A0-4524-BCCA-80F82E23154F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -571,6 +573,14 @@ Global
 		{65634C4A-17F3-42AE-8956-0ACC137D79C8}.Release|x64.Build.0 = Release|x64
 		{65634C4A-17F3-42AE-8956-0ACC137D79C8}.Release|x86.ActiveCfg = Release|Win32
 		{65634C4A-17F3-42AE-8956-0ACC137D79C8}.Release|x86.Build.0 = Release|Win32
+		{0C6782C9-E1A0-4524-BCCA-80F82E23154F}.Debug|x64.ActiveCfg = Debug|x64
+		{0C6782C9-E1A0-4524-BCCA-80F82E23154F}.Debug|x64.Build.0 = Debug|x64
+		{0C6782C9-E1A0-4524-BCCA-80F82E23154F}.Debug|x86.ActiveCfg = Debug|Win32
+		{0C6782C9-E1A0-4524-BCCA-80F82E23154F}.Debug|x86.Build.0 = Debug|Win32
+		{0C6782C9-E1A0-4524-BCCA-80F82E23154F}.Release|x64.ActiveCfg = Release|x64
+		{0C6782C9-E1A0-4524-BCCA-80F82E23154F}.Release|x64.Build.0 = Release|x64
+		{0C6782C9-E1A0-4524-BCCA-80F82E23154F}.Release|x86.ActiveCfg = Release|Win32
+		{0C6782C9-E1A0-4524-BCCA-80F82E23154F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
