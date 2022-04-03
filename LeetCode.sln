@@ -119,6 +119,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "两个数组的交集II", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "赎金信", "赎金信\赎金信.vcxproj", "{A4EECF17-585C-4E2E-85D3-10D607FBA0F1}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "字符串中的第一个唯一字符", "字符串中的第一个唯一字符\字符串中的第一个唯一字符.vcxproj", "{41AB1849-F63D-436F-B9CF-994D8F4F971C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -591,6 +593,14 @@ Global
 		{A4EECF17-585C-4E2E-85D3-10D607FBA0F1}.Release|x64.Build.0 = Release|x64
 		{A4EECF17-585C-4E2E-85D3-10D607FBA0F1}.Release|x86.ActiveCfg = Release|Win32
 		{A4EECF17-585C-4E2E-85D3-10D607FBA0F1}.Release|x86.Build.0 = Release|Win32
+		{41AB1849-F63D-436F-B9CF-994D8F4F971C}.Debug|x64.ActiveCfg = Debug|x64
+		{41AB1849-F63D-436F-B9CF-994D8F4F971C}.Debug|x64.Build.0 = Debug|x64
+		{41AB1849-F63D-436F-B9CF-994D8F4F971C}.Debug|x86.ActiveCfg = Debug|Win32
+		{41AB1849-F63D-436F-B9CF-994D8F4F971C}.Debug|x86.Build.0 = Debug|Win32
+		{41AB1849-F63D-436F-B9CF-994D8F4F971C}.Release|x64.ActiveCfg = Release|x64
+		{41AB1849-F63D-436F-B9CF-994D8F4F971C}.Release|x64.Build.0 = Release|x64
+		{41AB1849-F63D-436F-B9CF-994D8F4F971C}.Release|x86.ActiveCfg = Release|Win32
+		{41AB1849-F63D-436F-B9CF-994D8F4F971C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
