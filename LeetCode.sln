@@ -125,6 +125,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "合并两个有序链表", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "删除排序链表中的重复元素", "删除排序链表中的重复元素\删除排序链表中的重复元素.vcxproj", "{873A6A91-B414-48C8-AD54-72CE3A4191C0}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "移除链表元素", "移除链表元素\移除链表元素.vcxproj", "{F52814E0-C8A0-4690-BB53-7850171D8B54}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -621,6 +623,14 @@ Global
 		{873A6A91-B414-48C8-AD54-72CE3A4191C0}.Release|x64.Build.0 = Release|x64
 		{873A6A91-B414-48C8-AD54-72CE3A4191C0}.Release|x86.ActiveCfg = Release|Win32
 		{873A6A91-B414-48C8-AD54-72CE3A4191C0}.Release|x86.Build.0 = Release|Win32
+		{F52814E0-C8A0-4690-BB53-7850171D8B54}.Debug|x64.ActiveCfg = Debug|x64
+		{F52814E0-C8A0-4690-BB53-7850171D8B54}.Debug|x64.Build.0 = Debug|x64
+		{F52814E0-C8A0-4690-BB53-7850171D8B54}.Debug|x86.ActiveCfg = Debug|Win32
+		{F52814E0-C8A0-4690-BB53-7850171D8B54}.Debug|x86.Build.0 = Debug|Win32
+		{F52814E0-C8A0-4690-BB53-7850171D8B54}.Release|x64.ActiveCfg = Release|x64
+		{F52814E0-C8A0-4690-BB53-7850171D8B54}.Release|x64.Build.0 = Release|x64
+		{F52814E0-C8A0-4690-BB53-7850171D8B54}.Release|x86.ActiveCfg = Release|Win32
+		{F52814E0-C8A0-4690-BB53-7850171D8B54}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
