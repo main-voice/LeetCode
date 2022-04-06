@@ -127,6 +127,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "删除排序链表中的重
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "移除链表元素", "移除链表元素\移除链表元素.vcxproj", "{F52814E0-C8A0-4690-BB53-7850171D8B54}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "键盘行", "键盘行\键盘行.vcxproj", "{8EA61B4E-D9A8-47F5-8F04-EBAA89D0AC89}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -631,6 +633,14 @@ Global
 		{F52814E0-C8A0-4690-BB53-7850171D8B54}.Release|x64.Build.0 = Release|x64
 		{F52814E0-C8A0-4690-BB53-7850171D8B54}.Release|x86.ActiveCfg = Release|Win32
 		{F52814E0-C8A0-4690-BB53-7850171D8B54}.Release|x86.Build.0 = Release|Win32
+		{8EA61B4E-D9A8-47F5-8F04-EBAA89D0AC89}.Debug|x64.ActiveCfg = Debug|x64
+		{8EA61B4E-D9A8-47F5-8F04-EBAA89D0AC89}.Debug|x64.Build.0 = Debug|x64
+		{8EA61B4E-D9A8-47F5-8F04-EBAA89D0AC89}.Debug|x86.ActiveCfg = Debug|Win32
+		{8EA61B4E-D9A8-47F5-8F04-EBAA89D0AC89}.Debug|x86.Build.0 = Debug|Win32
+		{8EA61B4E-D9A8-47F5-8F04-EBAA89D0AC89}.Release|x64.ActiveCfg = Release|x64
+		{8EA61B4E-D9A8-47F5-8F04-EBAA89D0AC89}.Release|x64.Build.0 = Release|x64
+		{8EA61B4E-D9A8-47F5-8F04-EBAA89D0AC89}.Release|x86.ActiveCfg = Release|Win32
+		{8EA61B4E-D9A8-47F5-8F04-EBAA89D0AC89}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
