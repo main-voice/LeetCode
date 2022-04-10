@@ -135,6 +135,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "找不同", "找不同\找�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "区域和检索 - 数组不可变", "区域和检索 - 数组不可变\区域和检索 - 数组不可变.vcxproj", "{A6369B06-D924-4DFF-B492-DFD3450D514E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "最长回文串", "最长回文串\最长回文串.vcxproj", "{971438A2-C71B-4276-9A2C-B33BDCB7C518}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -671,6 +673,14 @@ Global
 		{A6369B06-D924-4DFF-B492-DFD3450D514E}.Release|x64.Build.0 = Release|x64
 		{A6369B06-D924-4DFF-B492-DFD3450D514E}.Release|x86.ActiveCfg = Release|Win32
 		{A6369B06-D924-4DFF-B492-DFD3450D514E}.Release|x86.Build.0 = Release|Win32
+		{971438A2-C71B-4276-9A2C-B33BDCB7C518}.Debug|x64.ActiveCfg = Debug|x64
+		{971438A2-C71B-4276-9A2C-B33BDCB7C518}.Debug|x64.Build.0 = Debug|x64
+		{971438A2-C71B-4276-9A2C-B33BDCB7C518}.Debug|x86.ActiveCfg = Debug|Win32
+		{971438A2-C71B-4276-9A2C-B33BDCB7C518}.Debug|x86.Build.0 = Debug|Win32
+		{971438A2-C71B-4276-9A2C-B33BDCB7C518}.Release|x64.ActiveCfg = Release|x64
+		{971438A2-C71B-4276-9A2C-B33BDCB7C518}.Release|x64.Build.0 = Release|x64
+		{971438A2-C71B-4276-9A2C-B33BDCB7C518}.Release|x86.ActiveCfg = Release|Win32
+		{971438A2-C71B-4276-9A2C-B33BDCB7C518}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
