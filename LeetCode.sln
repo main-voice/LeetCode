@@ -155,6 +155,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "反转字符串中的单词
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "链表的中间结点", "链表的中间结点\链表的中间结点.vcxproj", "{77F9DEB8-5BFF-4A0E-A9AF-B8E3B5F77197}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "删除链表的倒数第 N 个结点", "删除链表的倒数第 N 个结点\删除链表的倒数第 N 个结点.vcxproj", "{B7A6C0C2-8264-4BED-A7C0-AC8F06D1A39D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -771,6 +773,14 @@ Global
 		{77F9DEB8-5BFF-4A0E-A9AF-B8E3B5F77197}.Release|x64.Build.0 = Release|x64
 		{77F9DEB8-5BFF-4A0E-A9AF-B8E3B5F77197}.Release|x86.ActiveCfg = Release|Win32
 		{77F9DEB8-5BFF-4A0E-A9AF-B8E3B5F77197}.Release|x86.Build.0 = Release|Win32
+		{B7A6C0C2-8264-4BED-A7C0-AC8F06D1A39D}.Debug|x64.ActiveCfg = Debug|x64
+		{B7A6C0C2-8264-4BED-A7C0-AC8F06D1A39D}.Debug|x64.Build.0 = Debug|x64
+		{B7A6C0C2-8264-4BED-A7C0-AC8F06D1A39D}.Debug|x86.ActiveCfg = Debug|Win32
+		{B7A6C0C2-8264-4BED-A7C0-AC8F06D1A39D}.Debug|x86.Build.0 = Debug|Win32
+		{B7A6C0C2-8264-4BED-A7C0-AC8F06D1A39D}.Release|x64.ActiveCfg = Release|x64
+		{B7A6C0C2-8264-4BED-A7C0-AC8F06D1A39D}.Release|x64.Build.0 = Release|x64
+		{B7A6C0C2-8264-4BED-A7C0-AC8F06D1A39D}.Release|x86.ActiveCfg = Release|Win32
+		{B7A6C0C2-8264-4BED-A7C0-AC8F06D1A39D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
