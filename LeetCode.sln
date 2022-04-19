@@ -157,6 +157,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "链表的中间结点", "�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "删除链表的倒数第 N 个结点", "删除链表的倒数第 N 个结点\删除链表的倒数第 N 个结点.vcxproj", "{B7A6C0C2-8264-4BED-A7C0-AC8F06D1A39D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "无重复字符的最长子串", "无重复字符的最长子串\无重复字符的最长子串.vcxproj", "{9798B6A7-131E-4077-B0CB-EC29055431D8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -781,6 +783,14 @@ Global
 		{B7A6C0C2-8264-4BED-A7C0-AC8F06D1A39D}.Release|x64.Build.0 = Release|x64
 		{B7A6C0C2-8264-4BED-A7C0-AC8F06D1A39D}.Release|x86.ActiveCfg = Release|Win32
 		{B7A6C0C2-8264-4BED-A7C0-AC8F06D1A39D}.Release|x86.Build.0 = Release|Win32
+		{9798B6A7-131E-4077-B0CB-EC29055431D8}.Debug|x64.ActiveCfg = Debug|x64
+		{9798B6A7-131E-4077-B0CB-EC29055431D8}.Debug|x64.Build.0 = Debug|x64
+		{9798B6A7-131E-4077-B0CB-EC29055431D8}.Debug|x86.ActiveCfg = Debug|Win32
+		{9798B6A7-131E-4077-B0CB-EC29055431D8}.Debug|x86.Build.0 = Debug|Win32
+		{9798B6A7-131E-4077-B0CB-EC29055431D8}.Release|x64.ActiveCfg = Release|x64
+		{9798B6A7-131E-4077-B0CB-EC29055431D8}.Release|x64.Build.0 = Release|x64
+		{9798B6A7-131E-4077-B0CB-EC29055431D8}.Release|x86.ActiveCfg = Release|Win32
+		{9798B6A7-131E-4077-B0CB-EC29055431D8}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
