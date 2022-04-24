@@ -8,6 +8,7 @@ using namespace std;
 
 
 // Definition for singly-linked list.
+//https://leetcode-cn.com/problems/reverse-linked-list/solution/shi-pin-jiang-jie-die-dai-he-di-gui-hen-hswxy/
  struct ListNode {
       int val;
       ListNode *next;
@@ -16,7 +17,29 @@ using namespace std;
       ListNode(int x, ListNode *next) : val(x), next(next) {}
   };
  
-class Solution {
+ //递归
+ //翻转头节点与剩余所有节点
+ class Solution {
+ public:
+     ListNode* reverseList(ListNode* head) {
+         if (head == nullptr || head->next == nullptr)
+            { return head; }
+         using pNode = ListNode*;
+
+         //p一直不变，是最后一个节点
+         pNode p = reverseList(head->next);
+
+         head->next->next = head;
+         head->next = nullptr;
+
+         return p;
+
+     }
+ };
+
+
+ //数组中转
+class Solution1 {
 public:
     ListNode* reverseList(ListNode* head) {
         if (head == nullptr) { return nullptr; }
@@ -30,7 +53,9 @@ public:
             p = p->next;
         }
 
-        pNode h = new ListNode(-1);
+        ListNode ln(-1);
+        pNode h = &ln;
+        head = h;
 
         while (!S.empty())
         {
@@ -38,7 +63,9 @@ public:
             h = h->next;
             S.pop();
         }
-        return h->next;
+        h->next = nullptr;
+
+        return head->next;
     }
 };
 int main(){
