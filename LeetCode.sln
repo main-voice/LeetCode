@@ -197,6 +197,12 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "有效的数独", "有效�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "解数独", "解数独\解数独.vcxproj", "{4CE8C139-FB44-4482-8BD2-8AB33DA08198}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "最长和谐子序列", "最长和谐子序列\最长和谐子序列.vcxproj", "{4D41CADF-943C-46CA-8626-48AED7129CFE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "两数之和 IV - 输入 BST", "两数之和 IV - 输入 BST\两数之和 IV - 输入 BST.vcxproj", "{52920039-17CB-413C-B183-395DC754620E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "寻找数组的中心下标", "寻找数组的中心下标\寻找数组的中心下标.vcxproj", "{E23DB750-4F1D-424C-BAFB-C270E54F9D09}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -981,6 +987,30 @@ Global
 		{4CE8C139-FB44-4482-8BD2-8AB33DA08198}.Release|x64.Build.0 = Release|x64
 		{4CE8C139-FB44-4482-8BD2-8AB33DA08198}.Release|x86.ActiveCfg = Release|Win32
 		{4CE8C139-FB44-4482-8BD2-8AB33DA08198}.Release|x86.Build.0 = Release|Win32
+		{4D41CADF-943C-46CA-8626-48AED7129CFE}.Debug|x64.ActiveCfg = Debug|x64
+		{4D41CADF-943C-46CA-8626-48AED7129CFE}.Debug|x64.Build.0 = Debug|x64
+		{4D41CADF-943C-46CA-8626-48AED7129CFE}.Debug|x86.ActiveCfg = Debug|Win32
+		{4D41CADF-943C-46CA-8626-48AED7129CFE}.Debug|x86.Build.0 = Debug|Win32
+		{4D41CADF-943C-46CA-8626-48AED7129CFE}.Release|x64.ActiveCfg = Release|x64
+		{4D41CADF-943C-46CA-8626-48AED7129CFE}.Release|x64.Build.0 = Release|x64
+		{4D41CADF-943C-46CA-8626-48AED7129CFE}.Release|x86.ActiveCfg = Release|Win32
+		{4D41CADF-943C-46CA-8626-48AED7129CFE}.Release|x86.Build.0 = Release|Win32
+		{52920039-17CB-413C-B183-395DC754620E}.Debug|x64.ActiveCfg = Debug|x64
+		{52920039-17CB-413C-B183-395DC754620E}.Debug|x64.Build.0 = Debug|x64
+		{52920039-17CB-413C-B183-395DC754620E}.Debug|x86.ActiveCfg = Debug|Win32
+		{52920039-17CB-413C-B183-395DC754620E}.Debug|x86.Build.0 = Debug|Win32
+		{52920039-17CB-413C-B183-395DC754620E}.Release|x64.ActiveCfg = Release|x64
+		{52920039-17CB-413C-B183-395DC754620E}.Release|x64.Build.0 = Release|x64
+		{52920039-17CB-413C-B183-395DC754620E}.Release|x86.ActiveCfg = Release|Win32
+		{52920039-17CB-413C-B183-395DC754620E}.Release|x86.Build.0 = Release|Win32
+		{E23DB750-4F1D-424C-BAFB-C270E54F9D09}.Debug|x64.ActiveCfg = Debug|x64
+		{E23DB750-4F1D-424C-BAFB-C270E54F9D09}.Debug|x64.Build.0 = Debug|x64
+		{E23DB750-4F1D-424C-BAFB-C270E54F9D09}.Debug|x86.ActiveCfg = Debug|Win32
+		{E23DB750-4F1D-424C-BAFB-C270E54F9D09}.Debug|x86.Build.0 = Debug|Win32
+		{E23DB750-4F1D-424C-BAFB-C270E54F9D09}.Release|x64.ActiveCfg = Release|x64
+		{E23DB750-4F1D-424C-BAFB-C270E54F9D09}.Release|x64.Build.0 = Release|x64
+		{E23DB750-4F1D-424C-BAFB-C270E54F9D09}.Release|x86.ActiveCfg = Release|Win32
+		{E23DB750-4F1D-424C-BAFB-C270E54F9D09}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

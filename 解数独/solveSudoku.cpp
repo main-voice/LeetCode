@@ -19,7 +19,7 @@ class Solution {
 
     bool row[9][9]{};//row[i][j] : 第i行，数字j+1是否出现过
     bool col[9][9]{};//col[i][j] : 第i列，数字j+1是否出现过
-    bool block[3][3][9]{};//block[i][j][k] : 表示数字k在i,j方块中是否出现过
+    bool block[3][3][9]{};//block[i][j][k] : 表示数字k+1在i,j方块中是否出现过
 
     bool foundSolution = false;
 
@@ -51,10 +51,10 @@ public:
             for (size_t j = 0; j < 9; j++) {
 
                 if (board[i][j] == '.') {
-                    empty.emplace_back(make_pair(i, j));
+                    empty.emplace_back(make_pair(i, j));//将没有安放数字的位置存储起来
                 }
                 else {
-                    int num = board[i][j] - '0' - 1;
+                    int num = board[i][j] - '0' - 1;//减去1代表对应数字的索引，因为数组从0开始
                     row[i][num] = true;
                     col[j][num] = true;
                     block[i / 3][j / 3][num] = true;

@@ -72,7 +72,12 @@ public:
 };
 
 
+class Solution {
+public:
+    int maxSubArray(vector<int>& nums) {
 
+    }
+};
 int main()
 {
     vector<int> nums;
