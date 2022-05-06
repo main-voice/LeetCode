@@ -209,6 +209,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "最长公共子序列", "�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "所有奇数长度子数组的和", "所有奇数长度子数组的和\所有奇数长度子数组的和.vcxproj", "{9298448F-FF52-4F1E-842D-45279AD35AEA}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "左右两边子数组的和相等", "左右两边子数组的和相等\左右两边子数组的和相等.vcxproj", "{585B5A5A-16BA-4CE9-B8DD-2F5960446258}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1041,6 +1043,14 @@ Global
 		{9298448F-FF52-4F1E-842D-45279AD35AEA}.Release|x64.Build.0 = Release|x64
 		{9298448F-FF52-4F1E-842D-45279AD35AEA}.Release|x86.ActiveCfg = Release|Win32
 		{9298448F-FF52-4F1E-842D-45279AD35AEA}.Release|x86.Build.0 = Release|Win32
+		{585B5A5A-16BA-4CE9-B8DD-2F5960446258}.Debug|x64.ActiveCfg = Debug|x64
+		{585B5A5A-16BA-4CE9-B8DD-2F5960446258}.Debug|x64.Build.0 = Debug|x64
+		{585B5A5A-16BA-4CE9-B8DD-2F5960446258}.Debug|x86.ActiveCfg = Debug|Win32
+		{585B5A5A-16BA-4CE9-B8DD-2F5960446258}.Debug|x86.Build.0 = Debug|Win32
+		{585B5A5A-16BA-4CE9-B8DD-2F5960446258}.Release|x64.ActiveCfg = Release|x64
+		{585B5A5A-16BA-4CE9-B8DD-2F5960446258}.Release|x64.Build.0 = Release|x64
+		{585B5A5A-16BA-4CE9-B8DD-2F5960446258}.Release|x86.ActiveCfg = Release|Win32
+		{585B5A5A-16BA-4CE9-B8DD-2F5960446258}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
