@@ -3,6 +3,43 @@
 using namespace std;
 
 
+class Solution3 {
+public:
+    int maxProfit(vector<int>& prices) {
+        int minPrice = 2147483647;
+        int maxProfit = -1;
+
+        for (auto& x : prices) {
+            minPrice = min(x, minPrice);
+            maxProfit = max(maxProfit, x - minPrice);
+        }
+        return maxProfit;
+    }
+};
+
+//dp[i] - maxProfit of the i-th day
+
+class Solution4 {
+public:
+    int maxProfit(vector<int>& prices) {
+        int n = prices.size();
+        vector<int> dp(n);//dp[i] - maxProfit of the i-th day
+        dp[0] = 0;
+        int minN = prices[0];
+        for (size_t i = 1; i < n; i++) {
+            dp[i] = max(dp[i - 1], prices[i] - minN);
+            minN = min(minN, prices[i]);
+        }
+        return dp[n - 1];
+    }
+};
+
+
+
+
+
+
+
 class Solution1 {
 public:
     int maxProfit(vector<int>& prices) {

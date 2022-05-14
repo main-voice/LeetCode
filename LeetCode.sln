@@ -217,6 +217,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "左旋转字符串", "左�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "数组中重复的数字", "数组中重复的数字\数组中重复的数字.vcxproj", "{D82AC4CA-E514-4087-BDCB-0DD44B21B372}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "买卖股票的最佳时机 II", "买卖股票的最佳时机 II\买卖股票的最佳时机 II.vcxproj", "{4EE47E45-3782-4D5D-8959-3F65B075362F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1081,6 +1083,14 @@ Global
 		{D82AC4CA-E514-4087-BDCB-0DD44B21B372}.Release|x64.Build.0 = Release|x64
 		{D82AC4CA-E514-4087-BDCB-0DD44B21B372}.Release|x86.ActiveCfg = Release|Win32
 		{D82AC4CA-E514-4087-BDCB-0DD44B21B372}.Release|x86.Build.0 = Release|Win32
+		{4EE47E45-3782-4D5D-8959-3F65B075362F}.Debug|x64.ActiveCfg = Debug|x64
+		{4EE47E45-3782-4D5D-8959-3F65B075362F}.Debug|x64.Build.0 = Debug|x64
+		{4EE47E45-3782-4D5D-8959-3F65B075362F}.Debug|x86.ActiveCfg = Debug|Win32
+		{4EE47E45-3782-4D5D-8959-3F65B075362F}.Debug|x86.Build.0 = Debug|Win32
+		{4EE47E45-3782-4D5D-8959-3F65B075362F}.Release|x64.ActiveCfg = Release|x64
+		{4EE47E45-3782-4D5D-8959-3F65B075362F}.Release|x64.Build.0 = Release|x64
+		{4EE47E45-3782-4D5D-8959-3F65B075362F}.Release|x86.ActiveCfg = Release|Win32
+		{4EE47E45-3782-4D5D-8959-3F65B075362F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
