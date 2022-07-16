@@ -94,3 +94,37 @@ public:
         return true;
     }
 };
+
+class Solution2 {
+public:
+    bool isSubsequence(string s, string t) {
+        if (s.size() == 1 && t.size() == 1) {
+            return s[0] == t[0];
+        }
+        int pos = 0;
+        int sizeT = t.size();
+        //s[i]=b
+        size_t i = 0;
+        for (i = 0; i < s.size() && pos < sizeT; ) {
+            while (pos < sizeT) {
+                if (s[i] == t[pos]) {
+                    pos++;
+                    i++;
+                    break;
+                }
+                else {
+                    pos++;
+                }
+            }
+        }
+        if (i < s.size() && pos == sizeT)
+            return false;
+        else
+            return true;
+    }
+};
+int main()
+{
+    Solution2 sln;
+    sln.isSubsequence("abc", "ahbgdc");
+}
