@@ -27,6 +27,7 @@ using namespace std;
          using pNode = ListNode*;
 
          //p一直不变，是最后一个节点
+         // 用此方法，新链表和旧链表始终是连在一起的。中间的head.next是一个被两方都指着的，所以不需要逻辑上额外空间存放新的链表
          pNode p = reverseList(head->next);
 
          head->next->next = head;
@@ -68,6 +69,34 @@ public:
         return head->next;
     }
 };
+
+//2022-07-18
+class Solution2 {
+public:
+    ListNode* reverseList(ListNode* head) {
+        if (head == nullptr) {
+            return nullptr;
+        }
+
+        if (head->next != nullptr) {
+            auto pNext = reverseList(head->next);
+            head->next = nullptr;
+            { // 之所以需要循环，是因为之前直接pNext->next = head,而head后面又没东西，所以长度一直是2，最后一个和最后被换的一个节点。
+                // 需要循环找到结尾，把head放到结尾，而不是pNext的后面
+                // 之所以这样，是因为此处函数返回值是 反转后的头节点，但我们需要的是尾部节点
+                auto temp = pNext;
+                while (temp->next) temp = temp->next;
+                temp->next = head;
+            }
+            return pNext;
+
+        }
+        else {
+            return head;
+        }
+    }
+};
+
 int main(){
 
     cout << "hello world.\n";
