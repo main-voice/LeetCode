@@ -5,6 +5,53 @@
 #include <unordered_set>
 using namespace std;
 
+class Solution3 {
+public:
+
+    vector<int> searchRange(vector<int>& nums, int target) {
+        int l = 0;
+        int r = nums.size();
+
+        // first appearance
+        while (l < r) {
+            int m = (r - l) / 2 + l;
+            if (nums[m] == target) {
+                r = m;
+            }
+            else if (nums[m] > target) {
+                r = m;
+            }
+            else if (nums[m] < target) {
+                l = m + 1;
+            }
+        }
+        if (l == nums.size() || nums[l] != target)
+            return { -1, -1 };
+        int ansL = l;
+
+        l = 0;
+        r = nums.size();
+        // last appearance
+        while (l < r) {
+            int m = (r - l) / 2 + l;
+            if (nums[m] == target) {
+                l = m + 1;
+            }
+            else if (nums[m] > target) {
+                r = m;
+            }
+            else if (nums[m] < target) {
+                l = m + 1;
+            }
+        }
+        if (l - 1 == nums.size() || nums[l - 1] != target)
+            return { -1, -1 };
+        int ansR = l - 1;
+
+        return { ansL, ansR };
+    }
+};
+
 class Solution2 {
 public:
     // 返回大于等于target的第一个元素的位置
@@ -106,7 +153,7 @@ public:
 
 int main()
 {
-    vector<int> nums{ 0,0,1,2,2 };
-    Solution2 sln;
-    sln.searchRange(nums, 0);
+    vector<int> nums{ 5, 7, 7, 8, 8, 10 };
+    Solution3 sln;
+    sln.searchRange(nums, 8);
 }

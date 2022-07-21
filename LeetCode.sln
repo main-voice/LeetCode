@@ -249,6 +249,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "二叉树的层序遍历", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "搜索二维矩阵", "搜索二维矩阵\搜索二维矩阵.vcxproj", "{E87C08EF-46DF-4533-A39F-C696023C05B3}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "有效的完全平方数", "有效的完全平方数\有效的完全平方数.vcxproj", "{CAFFA949-CC7F-427A-BE37-0F720C8C1E93}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1241,6 +1243,14 @@ Global
 		{E87C08EF-46DF-4533-A39F-C696023C05B3}.Release|x64.Build.0 = Release|x64
 		{E87C08EF-46DF-4533-A39F-C696023C05B3}.Release|x86.ActiveCfg = Release|Win32
 		{E87C08EF-46DF-4533-A39F-C696023C05B3}.Release|x86.Build.0 = Release|Win32
+		{CAFFA949-CC7F-427A-BE37-0F720C8C1E93}.Debug|x64.ActiveCfg = Debug|x64
+		{CAFFA949-CC7F-427A-BE37-0F720C8C1E93}.Debug|x64.Build.0 = Debug|x64
+		{CAFFA949-CC7F-427A-BE37-0F720C8C1E93}.Debug|x86.ActiveCfg = Debug|Win32
+		{CAFFA949-CC7F-427A-BE37-0F720C8C1E93}.Debug|x86.Build.0 = Debug|Win32
+		{CAFFA949-CC7F-427A-BE37-0F720C8C1E93}.Release|x64.ActiveCfg = Release|x64
+		{CAFFA949-CC7F-427A-BE37-0F720C8C1E93}.Release|x64.Build.0 = Release|x64
+		{CAFFA949-CC7F-427A-BE37-0F720C8C1E93}.Release|x86.ActiveCfg = Release|Win32
+		{CAFFA949-CC7F-427A-BE37-0F720C8C1E93}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
