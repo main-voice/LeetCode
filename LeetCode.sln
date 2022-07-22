@@ -251,6 +251,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "搜索二维矩阵", "搜�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "有效的完全平方数", "有效的完全平方数\有效的完全平方数.vcxproj", "{CAFFA949-CC7F-427A-BE37-0F720C8C1E93}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "验证二叉搜索树", "验证二叉搜索树\验证二叉搜索树.vcxproj", "{23E6F769-D08E-4A62-9B5D-ABA3F7FA5EB7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1251,6 +1253,14 @@ Global
 		{CAFFA949-CC7F-427A-BE37-0F720C8C1E93}.Release|x64.Build.0 = Release|x64
 		{CAFFA949-CC7F-427A-BE37-0F720C8C1E93}.Release|x86.ActiveCfg = Release|Win32
 		{CAFFA949-CC7F-427A-BE37-0F720C8C1E93}.Release|x86.Build.0 = Release|Win32
+		{23E6F769-D08E-4A62-9B5D-ABA3F7FA5EB7}.Debug|x64.ActiveCfg = Debug|x64
+		{23E6F769-D08E-4A62-9B5D-ABA3F7FA5EB7}.Debug|x64.Build.0 = Debug|x64
+		{23E6F769-D08E-4A62-9B5D-ABA3F7FA5EB7}.Debug|x86.ActiveCfg = Debug|Win32
+		{23E6F769-D08E-4A62-9B5D-ABA3F7FA5EB7}.Debug|x86.Build.0 = Debug|Win32
+		{23E6F769-D08E-4A62-9B5D-ABA3F7FA5EB7}.Release|x64.ActiveCfg = Release|x64
+		{23E6F769-D08E-4A62-9B5D-ABA3F7FA5EB7}.Release|x64.Build.0 = Release|x64
+		{23E6F769-D08E-4A62-9B5D-ABA3F7FA5EB7}.Release|x86.ActiveCfg = Release|Win32
+		{23E6F769-D08E-4A62-9B5D-ABA3F7FA5EB7}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
