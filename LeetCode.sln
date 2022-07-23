@@ -253,6 +253,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "有效的完全平方数", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "验证二叉搜索树", "验证二叉搜索树\验证二叉搜索树.vcxproj", "{23E6F769-D08E-4A62-9B5D-ABA3F7FA5EB7}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "岛屿数量", "岛屿数量\岛屿数量.vcxproj", "{EEC014AE-100D-491C-819D-F1E1EC521431}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1261,6 +1263,14 @@ Global
 		{23E6F769-D08E-4A62-9B5D-ABA3F7FA5EB7}.Release|x64.Build.0 = Release|x64
 		{23E6F769-D08E-4A62-9B5D-ABA3F7FA5EB7}.Release|x86.ActiveCfg = Release|Win32
 		{23E6F769-D08E-4A62-9B5D-ABA3F7FA5EB7}.Release|x86.Build.0 = Release|Win32
+		{EEC014AE-100D-491C-819D-F1E1EC521431}.Debug|x64.ActiveCfg = Debug|x64
+		{EEC014AE-100D-491C-819D-F1E1EC521431}.Debug|x64.Build.0 = Debug|x64
+		{EEC014AE-100D-491C-819D-F1E1EC521431}.Debug|x86.ActiveCfg = Debug|Win32
+		{EEC014AE-100D-491C-819D-F1E1EC521431}.Debug|x86.Build.0 = Debug|Win32
+		{EEC014AE-100D-491C-819D-F1E1EC521431}.Release|x64.ActiveCfg = Release|x64
+		{EEC014AE-100D-491C-819D-F1E1EC521431}.Release|x64.Build.0 = Release|x64
+		{EEC014AE-100D-491C-819D-F1E1EC521431}.Release|x86.ActiveCfg = Release|Win32
+		{EEC014AE-100D-491C-819D-F1E1EC521431}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
