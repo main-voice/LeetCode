@@ -255,6 +255,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "验证二叉搜索树", "�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "岛屿数量", "岛屿数量\岛屿数量.vcxproj", "{EEC014AE-100D-491C-819D-F1E1EC521431}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "不同路径", "不同路径\不同路径.vcxproj", "{176A6F2E-D119-4A1A-866F-60C4B647D719}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1271,6 +1273,14 @@ Global
 		{EEC014AE-100D-491C-819D-F1E1EC521431}.Release|x64.Build.0 = Release|x64
 		{EEC014AE-100D-491C-819D-F1E1EC521431}.Release|x86.ActiveCfg = Release|Win32
 		{EEC014AE-100D-491C-819D-F1E1EC521431}.Release|x86.Build.0 = Release|Win32
+		{176A6F2E-D119-4A1A-866F-60C4B647D719}.Debug|x64.ActiveCfg = Debug|x64
+		{176A6F2E-D119-4A1A-866F-60C4B647D719}.Debug|x64.Build.0 = Debug|x64
+		{176A6F2E-D119-4A1A-866F-60C4B647D719}.Debug|x86.ActiveCfg = Debug|Win32
+		{176A6F2E-D119-4A1A-866F-60C4B647D719}.Debug|x86.Build.0 = Debug|Win32
+		{176A6F2E-D119-4A1A-866F-60C4B647D719}.Release|x64.ActiveCfg = Release|x64
+		{176A6F2E-D119-4A1A-866F-60C4B647D719}.Release|x64.Build.0 = Release|x64
+		{176A6F2E-D119-4A1A-866F-60C4B647D719}.Release|x86.ActiveCfg = Release|Win32
+		{176A6F2E-D119-4A1A-866F-60C4B647D719}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
