@@ -261,6 +261,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "找到字符串中所有字
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "猜数字游戏", "猜数字游戏\猜数字游戏.vcxproj", "{BF98B694-5CBF-4E7A-82B5-3804FFD1FA78}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6 和 9 组成的最大数字", "6 和 9 组成的最大数字\6 和 9 组成的最大数字.vcxproj", "{D7DE1755-72CE-4F7E-8A75-A07BA9829AD6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1301,6 +1303,14 @@ Global
 		{BF98B694-5CBF-4E7A-82B5-3804FFD1FA78}.Release|x64.Build.0 = Release|x64
 		{BF98B694-5CBF-4E7A-82B5-3804FFD1FA78}.Release|x86.ActiveCfg = Release|Win32
 		{BF98B694-5CBF-4E7A-82B5-3804FFD1FA78}.Release|x86.Build.0 = Release|Win32
+		{D7DE1755-72CE-4F7E-8A75-A07BA9829AD6}.Debug|x64.ActiveCfg = Debug|x64
+		{D7DE1755-72CE-4F7E-8A75-A07BA9829AD6}.Debug|x64.Build.0 = Debug|x64
+		{D7DE1755-72CE-4F7E-8A75-A07BA9829AD6}.Debug|x86.ActiveCfg = Debug|Win32
+		{D7DE1755-72CE-4F7E-8A75-A07BA9829AD6}.Debug|x86.Build.0 = Debug|Win32
+		{D7DE1755-72CE-4F7E-8A75-A07BA9829AD6}.Release|x64.ActiveCfg = Release|x64
+		{D7DE1755-72CE-4F7E-8A75-A07BA9829AD6}.Release|x64.Build.0 = Release|x64
+		{D7DE1755-72CE-4F7E-8A75-A07BA9829AD6}.Release|x86.ActiveCfg = Release|Win32
+		{D7DE1755-72CE-4F7E-8A75-A07BA9829AD6}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
