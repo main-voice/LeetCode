@@ -263,6 +263,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "猜数字游戏", "猜数�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6 和 9 组成的最大数字", "6 和 9 组成的最大数字\6 和 9 组成的最大数字.vcxproj", "{D7DE1755-72CE-4F7E-8A75-A07BA9829AD6}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "多数元素 II", "多数元素 II\多数元素 II.vcxproj", "{C91AE433-EDB2-4BC2-BF20-11B72BE0C666}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1311,6 +1313,14 @@ Global
 		{D7DE1755-72CE-4F7E-8A75-A07BA9829AD6}.Release|x64.Build.0 = Release|x64
 		{D7DE1755-72CE-4F7E-8A75-A07BA9829AD6}.Release|x86.ActiveCfg = Release|Win32
 		{D7DE1755-72CE-4F7E-8A75-A07BA9829AD6}.Release|x86.Build.0 = Release|Win32
+		{C91AE433-EDB2-4BC2-BF20-11B72BE0C666}.Debug|x64.ActiveCfg = Debug|x64
+		{C91AE433-EDB2-4BC2-BF20-11B72BE0C666}.Debug|x64.Build.0 = Debug|x64
+		{C91AE433-EDB2-4BC2-BF20-11B72BE0C666}.Debug|x86.ActiveCfg = Debug|Win32
+		{C91AE433-EDB2-4BC2-BF20-11B72BE0C666}.Debug|x86.Build.0 = Debug|Win32
+		{C91AE433-EDB2-4BC2-BF20-11B72BE0C666}.Release|x64.ActiveCfg = Release|x64
+		{C91AE433-EDB2-4BC2-BF20-11B72BE0C666}.Release|x64.Build.0 = Release|x64
+		{C91AE433-EDB2-4BC2-BF20-11B72BE0C666}.Release|x86.ActiveCfg = Release|Win32
+		{C91AE433-EDB2-4BC2-BF20-11B72BE0C666}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
