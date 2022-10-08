@@ -265,6 +265,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6 和 9 组成的最大数�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "多数元素 II", "多数元素 II\多数元素 II.vcxproj", "{C91AE433-EDB2-4BC2-BF20-11B72BE0C666}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "翻转对", "翻转对\翻转对.vcxproj", "{6ED34972-9801-4C84-9A4F-43710FC6B3D3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1321,6 +1323,14 @@ Global
 		{C91AE433-EDB2-4BC2-BF20-11B72BE0C666}.Release|x64.Build.0 = Release|x64
 		{C91AE433-EDB2-4BC2-BF20-11B72BE0C666}.Release|x86.ActiveCfg = Release|Win32
 		{C91AE433-EDB2-4BC2-BF20-11B72BE0C666}.Release|x86.Build.0 = Release|Win32
+		{6ED34972-9801-4C84-9A4F-43710FC6B3D3}.Debug|x64.ActiveCfg = Debug|x64
+		{6ED34972-9801-4C84-9A4F-43710FC6B3D3}.Debug|x64.Build.0 = Debug|x64
+		{6ED34972-9801-4C84-9A4F-43710FC6B3D3}.Debug|x86.ActiveCfg = Debug|Win32
+		{6ED34972-9801-4C84-9A4F-43710FC6B3D3}.Debug|x86.Build.0 = Debug|Win32
+		{6ED34972-9801-4C84-9A4F-43710FC6B3D3}.Release|x64.ActiveCfg = Release|x64
+		{6ED34972-9801-4C84-9A4F-43710FC6B3D3}.Release|x64.Build.0 = Release|x64
+		{6ED34972-9801-4C84-9A4F-43710FC6B3D3}.Release|x86.ActiveCfg = Release|Win32
+		{6ED34972-9801-4C84-9A4F-43710FC6B3D3}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
